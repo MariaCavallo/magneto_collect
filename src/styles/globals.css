@@ -2,20 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kantumruy Pro", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body, .cart, .modal {
+    background: linear-gradient(to right, #1a1a1a, #1a1a1ad8, #1b1b1b );
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  label {
+  color: white !important;
+} 
+
+.title {
+  font-size: 3rem;
+  font-family: "Bodoni Moda SC", serif;
+  font-weight: 600;
+  color: #5bc51d;
 }
