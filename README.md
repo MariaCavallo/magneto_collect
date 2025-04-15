@@ -61,10 +61,10 @@ Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 ## 💻 Uso
 
-· *Explora los productos:* Navega por las categorías y agrega productos al carrito.
-· *Carrito de compras:* Puedes revisar los productos añadidos al carrito y ver el resumen de la compra.
-· *Proceso de pago:* Completa los datos de usuario y realiza el pago (simulado).
-· *Notificaciones:* Recibe notificaciones sobre el estado del pedido usando Sonner.
+- *Explora los productos:* Navega por las categorías y agrega productos al carrito.
+- *Carrito de compras:* Puedes revisar los productos añadidos al carrito y ver el resumen de la compra.
+- *Proceso de pago:* Completa los datos de usuario y realiza el pago (simulado).
+- *Notificaciones:* Recibe notificaciones sobre el estado del pedido usando Sonner.
 
 ---
 
