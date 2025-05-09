@@ -55,7 +55,7 @@ const CartComponent: React.FC<CartComponentProps> = ({ isOpen, onOpenChange }) =
                             <Button color="danger" variant="light" onPress={onClose}>
                                 Close
                             </Button>
-                            <Button as={Link} href="/checkout" className="bg-[#5bc51d] text-white font-semibold" onPress={onClose} isDisabled={cart.length === 0}>
+                            <Button as={Link} href="/checkout/checkout" className="bg-[#5bc51d] text-white font-semibold" onPress={onClose} isDisabled={cart.length === 0}>
                                 Checkout
                             </Button>
                         </DrawerFooter>
