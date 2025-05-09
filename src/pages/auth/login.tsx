@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Form, Input, Checkbox, Button, CircularProgress } from "@heroui/react";
-import { ArrowLeft, Eye, EyeSlash } from "@phosphor-icons/react";
+import { ArrowLeft, Eye, EyeSlash, FileText } from "@phosphor-icons/react";
 import { Toaster, toast } from 'sonner'
 import axios from "axios";
 import Link from "next/link";
@@ -147,6 +147,11 @@ const Login = () => {
                                 setErrors({});
                             }}>
                                 Reset
+                            </Button>
+                        </div>
+                        <div className="flex justify-center items-center">
+                            <Button endContent={<FileText size={17} />} className="bg-transparent border-b-2 border-[#5bc51d] text-white" variant="flat" radius="none" onPress={() => window.open('/user.txt', '_blank')}>
+                                Working users
                             </Button>
                         </div>
                     </div>
